@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django-xlspopulator",
-    version="1",
+    version="1.0",
     author="Nikita Tonkoshkur",
     author_email="humapen@gmail.com",
     description="Populate your Django model from .xls file",
