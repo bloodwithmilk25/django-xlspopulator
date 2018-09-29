@@ -17,9 +17,10 @@ How to:
 1. Then you need to create `populate.py` file at one level with your `manage.py`
 1. Put following code there:
     ```python
+    # populate.py
     import os
     import django
-    from django_populator import Populator
+    from django_xlspopulator import Populator
     os.environ.setdefault('DJANGO_SETTINGS_MODULE','YOURPOJECT.settings')
     django.setup()
     from YOURAPP.models import Test
