@@ -28,3 +28,5 @@ class Populator:
             for index, col in enumerate(row):
                 entry[col_names[index]] = col
             self.model.objects.create(**entry)
+            
+        return 'Populating is over'
