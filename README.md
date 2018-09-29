@@ -14,7 +14,7 @@ How to:
       four = models.CharField(max_length=150)
     ```
     <img src="https://github.com/bloodwithmilk25/django-xlspopulator/blob/master/col_names.jpg">
-1. Then you need to create `populate.py` file at one level with your `manage.py`
+1. Then you need to create `populate.py` file at the one level with your `manage.py`
 1. Put following code there:
     ```python
     # populate.py
@@ -31,5 +31,5 @@ How to:
     * Populator object takes three arguments:
       * path to the .xls file in form of a string
       * Django model object
-      * Sheet nubmber(0 by defaulft, specify it if you want to use other sheet)
+      * Sheet number, int(0 by defaulft, specify it if you want to use other sheet)
 1. Run `populate.py` from the terminal and wait. For my old machine with SQLite it took 5 mins to populate model from file that had 4 columns and 10000 rows.
