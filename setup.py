@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django-populator",
-    version="0.0.1",
+    version="1",
     author="Nikita Tonkoshkur",
     author_email="humapen@gmail.com",
     description="Populate your Django model from .xls file",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/bloodwithmilk25/django-xlspopulator",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
