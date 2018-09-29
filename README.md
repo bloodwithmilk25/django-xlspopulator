@@ -17,10 +17,6 @@ How to:
       three = models.CharField(max_length=150)
       four = models.CharField(max_length=150)
     ```
-    ```javascript
-if (isAwesome){
-  return true
-}
-```
 <img src="https://github.com/bloodwithmilk25/django-xlspopulator/blob/master/col_names.jpg">
+  </li>
    
