@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="django-populator",
+    name="django-xlspopulator",
     version="1",
     author="Nikita Tonkoshkur",
     author_email="humapen@gmail.com",
