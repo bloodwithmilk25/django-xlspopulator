@@ -31,5 +31,5 @@ How to:
     * Populator object takes three arguments:
       * path to the .xls file in form of a string
       * Django model object
-      * Sheet nubmber(0 by defaulf, specify it if you want to use other sheet)
+      * Sheet nubmber(0 by defaulft, specify it if you want to use other sheet)
 1. Run `populate.py` from the terminal and wait. For my old machine with SQLite it took 5 mins to populate model from file that had 4 columns and 10000 rows.
