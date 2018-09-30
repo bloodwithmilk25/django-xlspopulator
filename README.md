@@ -1,7 +1,6 @@
-# django-xlspopulator
+# django_xlspopulator
 Easy to use .xls Django model populator. 
 
-( ͡° ͜ʖ ͡°)
 
 How to:
 1. First you need to install latest version of <b>xlrd: pip install xlrd==1.1.0</b>
@@ -20,7 +19,7 @@ How to:
     # populate.py
     import os
     import django
-    from django_xlspopulator import Populator
+    from django_xlspopulator.populator import Populator
     os.environ.setdefault('DJANGO_SETTINGS_MODULE','YOURPOJECT.settings')
     django.setup()
     from YOURAPP.models import Test

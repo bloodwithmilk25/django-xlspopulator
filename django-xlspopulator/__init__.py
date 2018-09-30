@@ -1,1 +1,1 @@
-name = "django-populator"
+name = "django-xlspopulator"

@@ -10,7 +10,7 @@ class Populator:
     def __str__(self):
         return str(self.model)
 
-    def populator(self):
+    def populate(self):
         work_book = xlrd.open_workbook(self.path)
         sheet = work_book.sheet_by_index(self.sheet)
 
@@ -20,7 +20,7 @@ class Populator:
             col_names.append(cell.value)
 
         # going through all the rows with data except the first one
-        for rownumber in range(sheet.nrows)[1:]:
+        for rownumber in range(1, sheet.nrows):
             row = sheet.row_values(rownumber)
             entry = dict()  # accumulating data for one entry in dictionary
             # col iterator
