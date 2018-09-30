@@ -32,4 +32,4 @@ How to:
       * path to the .xls file in form of a string
       * Django model object
       * Sheet number, int(0 by defaulft, specify it if you want to use other sheet)
-1. Run `populate.py` from the terminal and wait. For my old machine with SQLite it took 5 mins to populate model from file that had 4 columns and 10000 rows.
+1. Run `populate.py` from the terminal and wait. For my old machine with SQLite it took 7 mins to populate model from file that had 4 columns and 10000 rows.
