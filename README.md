@@ -1,5 +1,6 @@
 # django_xlspopulator
-Easy to use .xls Django model populator. 
+Easy to use .xls Django model populator.
+<h2><b>pip install django-xlspopulator</b></h2>
 
 
 How to:
