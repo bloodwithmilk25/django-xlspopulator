@@ -4,7 +4,6 @@ Easy to use .xls Django model populator.
 
 
 How to:
-1. First you need to install latest version of <b>xlrd: pip install xlrd==1.1.0</b>
 1. In order for this to work, you need exactly match your model's field names and xls's first row values(column names), like this:
     ```python
     class Test(models.Model):
