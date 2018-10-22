@@ -4,7 +4,7 @@ Easy to use .xls Django model populator.
 
 
 How to:
-1. In order for this to work, you need exactly match your model's field names and xls's first row values(column names), like this:
+1. In order for this to work you need exactly match your model's field names and xls's first row values(column names), like this:
     ```python
     class Test(models.Model):
       one = models.CharField(max_length=150)
